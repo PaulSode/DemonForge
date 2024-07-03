@@ -1,0 +1,2 @@
+Zombies, slow but relentless. They will wear down our enemies by sheer persistence. #speaker:Alith #portrait:alith #layout:right
+They can carry a few things around, but i wouldn't expect them to arrive in one piece.

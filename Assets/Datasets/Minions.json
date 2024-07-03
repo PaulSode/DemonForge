@@ -1,0 +1,256 @@
+﻿{
+  "minions": [
+    {
+      "name": "Goblin",
+      "priceCoef": 10,
+      "priceExp": 0,
+      "damageCoef": 1,
+      "damageExp": 0,
+      "image": "goblin.png",
+      "description": "Almost useless, but can at least clean the floor and mine some gold."
+    },
+    {
+      "name": "Skeleton",
+      "priceCoef": 100,
+      "priceExp": 0,
+      "damageCoef": 5,
+      "damageExp": 0,
+      "image": "skeleton.png",
+      "description": "Basic undead creatures. Slightly stronger than goblins, but still not enough to win a war."
+    },
+    {
+      "name": "Zombie",
+      "priceCoef": 500,
+      "priceExp": 0,
+      "damageCoef": 20,
+      "damageExp": 0,
+      "image": "zombie.png",
+      "description": "Slow but tough undead. Can take more damage than a skeleton, but is very stupid."
+    },
+    {
+      "name": "Orc",
+      "priceCoef": 2500,
+      "priceExp": 0,
+      "damageCoef": 75,
+      "damageExp": 0,
+      "image": "zombie.png",
+      "description": "Stronger and more aggressive, is a mediocre melee fighter."
+    },
+    {
+      "name": "Wolf",
+      "priceCoef": 10000,
+      "priceExp": 0,
+      "damageCoef": 200,
+      "damageExp": 0,
+      "image": "zombie.png",
+      "description": "Fast and agile. Good for quick attacks and harass. Can also serve as mount for small units"
+    },
+    {
+      "name": "Hobgoblin",
+      "priceCoef": 50000,
+      "priceExp": 0,
+      "damageCoef": 550,
+      "damageExp": 0,
+      "image": "zombie.png",
+      "description": "More disciplined and stronger than regular goblins. Will at least scare the squires."
+    },
+    {
+      "name": "Ghoul",
+      "priceCoef": 250000,
+      "priceExp": 0,
+      "damageCoef": 1750,
+      "damageExp": 0,
+      "image": "zombie.png",
+      "description": "Undead creatures that can paralyze with their touch. They have a cold aura that I don't dislike."
+    },
+    {
+      "name": "Ogre",
+      "priceCoef": 2,
+      "priceExp": 6,
+      "damageCoef": 5000,
+      "damageExp": 0,
+      "image": "zombie.png",
+      "description": "Large and very strong ~. Can deal and take a lot of damage."
+    },
+    {
+      "name": "Troll",
+      "priceCoef": 10,
+      "priceExp": 6,
+      "damageCoef": 25000,
+      "damageExp": 0,
+      "image": "zombie.png",
+      "description": "Strong regenerative abilities. They are tough opponents"
+    },
+    {
+      "name": "Wraith",
+      "priceCoef": 50,
+      "priceExp": 6,
+      "damageCoef": 90000,
+      "damageExp": 0,
+      "image": "zombie.png",
+      "description": "Ghostly beings that can drain life force. It's like me, but worse."
+    },
+    {
+      "name": "Dark Elf",
+      "priceCoef": 150,
+      "priceExp": 6,
+      "damageCoef": 1.6,
+      "damageExp": 6,
+      "image": "zombie.png",
+      "description": "Skilled in both magic and combat. Agile and dangerous."
+    },
+    {
+      "name": "Minotaur",
+      "priceCoef": 1.25,
+      "priceExp": 9,
+      "damageCoef": 50,
+      "damageExp": 6,
+      "image": "zombie.png",
+      "description": "Powerful creatures with great strength and endurance. They have so much stamina ~"
+    },
+    {
+      "name": "Vampire",
+      "priceCoef": 5,
+      "priceExp": 9,
+      "damageCoef": 150,
+      "damageExp": 6,
+      "image": "zombie.png",
+      "description": "Undead with high intelligence and various abilities, including life drain and transformation."
+    },
+    {
+      "name": "Werewolf",
+      "priceCoef": 12,
+      "priceExp": 9,
+      "damageCoef": 500,
+      "damageExp": 6,
+      "image": "zombie.png",
+      "description": "Shape-shifters with enhanced strength, speed, and senses. They're like wolves.. But better ~"
+    },
+    {
+      "name": "Liche",
+      "priceCoef": 50,
+      "priceExp": 9,
+      "damageCoef": 1.2,
+      "damageExp": 9,
+      "image": "zombie.png",
+      "description": "Powerful undead sorcerers. Command over dark magic and hordes of small minions."
+    },
+    {
+      "name": "Elemental",
+      "priceCoef": 120,
+      "priceExp": 9,
+      "damageCoef": 4.8,
+      "damageExp": 9,
+      "image": "zombie.png",
+      "description": "Beings of pure elemental energy. Very powerful and difficult to control. The only thing they hate more than us is the humans."
+    },
+    {
+      "name": "Wyvern",
+      "priceCoef": 500,
+      "priceExp": 9,
+      "damageCoef": 10,
+      "damageExp": 9,
+      "image": "zombie.png",
+      "description": "Smaller dragon-like creatures. Can fly and breathe fire or poison."
+    },
+    {
+      "name": "Giant Spider",
+      "priceCoef": 2,
+      "priceExp": 12,
+      "damageCoef": 40,
+      "damageExp": 9,
+      "image": "zombie.png",
+      "description": "The size of a house, they are poisonous and can trap enemies with webs."
+    },
+    {
+      "name": "Chimera",
+      "priceCoef": 8.5,
+      "priceExp": 12,
+      "damageCoef": 100,
+      "damageExp": 9,
+      "image": "zombie.png",
+      "description": "Multi-headed beasts with various abilities. They can have the best of each minion."
+    },
+    {
+      "name": "Gargoyle",
+      "priceCoef": 16,
+      "priceExp": 12,
+      "damageCoef": 400,
+      "damageExp": 9,
+      "image": "zombie.png",
+      "description": "Stone-like creatures that can turn to stone and are tough to defeat. Did I mention that they are the size of a Giant Spider ?"
+    },
+    {
+      "name": "Hellhound",
+      "priceCoef": 196,
+      "priceExp": 12,
+      "damageCoef": 4.5,
+      "damageExp": 12,
+      "image": "zombie.png",
+      "description": "Fiery dogs from the underworld. Fast, deadly, and extremely hot. Strangely likes hugs."
+    },
+    {
+      "name": "Basilisk",
+      "priceCoef": 700,
+      "priceExp": 12,
+      "damageCoef": 9.9,
+      "damageExp": 12,
+      "image": "zombie.png",
+      "description": "Serpentine creatures with a petrifying gaze. Strangely scared of hugs."
+    },
+    {
+      "name": "Manticore",
+      "priceCoef": 2,
+      "priceExp": 15,
+      "damageCoef": 3,
+      "damageExp": 13,
+      "image": "zombie.png",
+      "description": "Beasts with the body of a lion, a human face, and a scorpion tail. For some reason they really scare humans."
+    },
+    {
+      "name": "Hydra",
+      "priceCoef": 8,
+      "priceExp": 15,
+      "damageCoef": 90,
+      "damageExp": 12,
+      "image": "zombie.png",
+      "description": "Multi-headed serpents. When one head is cut off, two more grow back. I once saw one with a thousand heads."
+    },
+    {
+      "name": "Dragon",
+      "priceCoef": 30,
+      "priceExp": 15,
+      "damageCoef": 250,
+      "damageExp": 12,
+      "image": "zombie.png",
+      "description": "Multi-headed serpents. When one head is cut off, two more grow back. I once saw one with a thousand heads."
+    },
+    {
+      "name": "Behemoth",
+      "priceCoef": 100,
+      "priceExp": 15,
+      "damageCoef": 1,
+      "damageExp": 15,
+      "image": "zombie.png",
+      "description": "Massive creatures with incredible strength and durability. It's always though to fight against mountains."
+    },
+    {
+      "name": "Demon",
+      "priceCoef": 500,
+      "priceExp": 15,
+      "damageCoef": 5,
+      "damageExp": 15,
+      "image": "zombie.png",
+      "description": "High-ranking infernal beings with immense power and various magical abilities. There can fight against mountains."
+    },
+    {
+      "name": "Archdemon",
+      "priceCoef": 5,
+      "priceExp": 18,
+      "damageCoef": 10,
+      "damageExp": 15,
+      "image": "zombie.png",
+      "description": "Among the most powerful infernal beings. Command vast dark powers and legions of lesser demons. Second only to you."
+    }
+  ]
+}

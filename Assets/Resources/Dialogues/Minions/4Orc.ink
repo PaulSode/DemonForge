@@ -1,0 +1,2 @@
+Orcs, brutish and strong. Their savagery will be a great asset on the front lines. #speaker:Alith #portrait:alith #layout:right
+If only their brain could be as big as their muscles, we would have won the war.

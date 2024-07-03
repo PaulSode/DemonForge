@@ -1,0 +1,104 @@
+﻿{
+  "upgrades": [
+    {
+      "name": "Pickaxes",
+      "target": [0],
+      "stat": "damage",
+      "value": [200,0],
+      "isPercentUpgrade": true,
+      "cost": [500,0],
+      "description": "Giving pickaxes to goblins will make them surprisingly more efficient at mining gold. (Goblin x2)",
+      "image": "none"
+    },
+    {
+      "name": "Minecarts",
+      "target": [0],
+      "stat": "damage",
+      "value": [200,0],
+      "isPercentUpgrade": true,
+      "cost": [10,3],
+      "description": "Letting goblins push minecart instead of carrying the gold is way better for their back. (Goblin x2)",
+      "image": "none"
+    },
+    {
+      "name": "Reinforced bones",
+      "target": [1],
+      "stat": "damage",
+      "value": [200,0],
+      "isPercentUpgrade": true,
+      "cost": [50,3],
+      "description": "We found out that adult skeletons have sturdier bones, so we're using them now. (Skeleton x2)",
+      "image": "none"
+    },
+    {
+      "name": "Festering Wounds",
+      "target": [2],
+      "stat": "damage",
+      "value": [200,0],
+      "isPercentUpgrade": true,
+      "cost": [150,3],
+      "description": "Enhancing their decaying flesh, zombies' attacks now inflict a disease that weakens enemies over time. It's ugly. (Zombie x2)",
+      "image": "none"
+    },
+    {
+      "name": "War Drums",
+      "target": [3],
+      "stat": "damage",
+      "value": [200,0],
+      "isPercentUpgrade": true,
+      "cost": [500,3],
+      "description": "The sound of war drums inspires orcs, increasing their attack speed and morale in combat. I'll prepare ear plugs for the other monsters (Orc x2)",
+      "image": "none"
+    },
+    {
+      "name": "Pack Tactics",
+      "target": [4],
+      "stat": "damage",
+      "value": [200,0],
+      "isPercentUpgrade": true,
+      "cost": [1,6],
+      "description": "Until now, wolves hunted alone. But thanks to some team building events they now hunt in packs. (Wolf x2)",
+      "image": "none"
+    },
+    {
+      "name": "Family links",
+      "target": [5],
+      "stat": "damage",
+      "value": [200,0],
+      "isPercentUpgrade": true,
+      "cost": [5,6],
+      "description": "We approximately did the same thing than with wolves, and now they won't stop calling each other 'brother'. Seems like it's working. (Hobgoblin x2)",
+      "image": "none"
+    },
+    {
+      "name": "Enhanced Claws",
+      "target": [6],
+      "stat": "damage",
+      "value": [200,0],
+      "isPercentUpgrade": true,
+      "cost": [15,6],
+      "description": "Sharpening ghouls' claws allows them to paralyze enemies more effectively and deal greater damage. Plus they are shiny now. (Ghoul x2)",
+      "image": "none"
+    },
+    {
+      "name": "Iron Clubs",
+      "target": [7],
+      "stat": "damage",
+      "value": [200,0],
+      "isPercentUpgrade": true,
+      "cost": [50,6],
+      "description": "Arming ogres with iron clubs significantly increases their attack power, making them even more formidable. (Troll x2)",
+      "image": "none"
+    },
+    {
+      "name": "Money Laundering",
+      "target": [0],
+      "stat": "damage",
+      "value": [100,12],
+      "isPercentUpgrade": true,
+      "cost": [1,9],
+      "description": "I'm actually not sure why you'd play up to here anyways. (Goblin x1000000)",
+      "image": "none"
+    }
+  ]
+}
