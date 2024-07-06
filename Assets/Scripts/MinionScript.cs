@@ -83,11 +83,8 @@ public class MinionScript : MonoBehaviour, IDataPersistence
 
     private void UpdateClickable()
     {
-        if (_buyMode == BuyMode.Max && RessourcesManager.Instance.gold >= _buyModePrice)
-        {
-            _buyModePrice = CalculateMaxPrice();
-            UpdateUI();
-        }
+        CalculatePrice();
+        UpdateUI();
         buyButton.interactable = RessourcesManager.Instance.gold >= _buyModePrice;
     }
 
@@ -145,9 +142,18 @@ public class MinionScript : MonoBehaviour, IDataPersistence
     private void OnBuyModeUpdate(BuyMode mode)
     {
         _buyMode = mode;
+        CalculatePrice();
+        UpdateClickable();
+        UpdateFrontStats();
+    }
+
+    #region prices
+
+    private void CalculatePrice()
+    {
         switch (_buyMode)
         {
-            case BuyMode.One:
+            case BuyMode.One: 
                 _buyModePrice = CalculatePriceForLevels(1);
                 break;
             case BuyMode.Ten:
@@ -160,9 +166,6 @@ public class MinionScript : MonoBehaviour, IDataPersistence
                 _buyModePrice = CalculateMaxPrice();
                 break;
         }
-        
-        UpdateClickable();
-        UpdateFrontStats();
     }
 
     private BFN CalculatePriceForLevels(int levels)
@@ -196,6 +199,10 @@ public class MinionScript : MonoBehaviour, IDataPersistence
         }
         
     }
+
+    #endregion
+
+    #region data
 
     public void LoadData(GameData gameData)
     {
@@ -247,6 +254,10 @@ public class MinionScript : MonoBehaviour, IDataPersistence
             upgrades = upgrades
         });
     }
+
+    #endregion
+
+
     
     
     

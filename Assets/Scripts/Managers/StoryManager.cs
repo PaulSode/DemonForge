@@ -13,7 +13,7 @@ public class StoryManager : MonoBehaviour, IDataPersistence
     public bool introductionDone = false;
     [SerializeField] private List<TextAsset> inkJSONAssets;
     private List<string> _assetNames;
-    private List<string> _assetNamesQueue;
+    public List<string> _assetNamesQueue;
     private string _currentAsset;
     
 
