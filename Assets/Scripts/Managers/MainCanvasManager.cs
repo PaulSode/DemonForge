@@ -2,7 +2,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class MainCanvasManager : MonoBehaviour
+public class MainCanvasManager : MonoBehaviour, IDataPersistence
 {
     public static MainCanvasManager Instance = null;
     
@@ -37,7 +37,17 @@ public class MainCanvasManager : MonoBehaviour
         if (RessourcesManager.Instance.gold >= BFN.Thousand)
         {
             tabsButtonsContainer.SetActive(true);
+            RessourcesManager.onGoldUpdate -= CheckForTabs;
         }
-        
+    }
+
+    public void LoadData(GameData gameData)
+    {
+        tabsButtonsContainer.SetActive(gameData.tabsShown);
+    }
+
+    public void SaveData(ref GameData gameData)
+    {
+        gameData.tabsShown = tabsButtonsContainer.activeSelf;
     }
 }

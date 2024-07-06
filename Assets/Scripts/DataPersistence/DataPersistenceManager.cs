@@ -55,7 +55,7 @@ public class DataPersistenceManager : MonoBehaviour
         {
             obj.LoadData(gameData);
         }
-
+        
     }
     
     public void SaveGame()

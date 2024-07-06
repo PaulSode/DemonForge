@@ -16,6 +16,7 @@ public class GameData
     public List<string> inkJSONNames;
     public List<BFN> inkJSONThresholds;
     public bool mainButtonShown;
+    public bool tabsShown;
 
     public GameData()
     {
@@ -24,5 +25,6 @@ public class GameData
         this.inkJSONNames = new List<string>();
         this.inkJSONThresholds = new List<BFN>();
         this.mainButtonShown = false;
+        this.tabsShown = false;
     }
 }

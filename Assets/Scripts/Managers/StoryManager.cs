@@ -60,7 +60,7 @@ public class StoryManager : MonoBehaviour, IDataPersistence
 
     private void Start()
     {
-        _updateTimer = 1f;
+        _updateTimer = 2f;
     }
 
     private void Update()
