@@ -1546,13 +1546,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _monsterIndex: 0
   minionName: Unknown
-  image: {fileID: 0}
+  image: {fileID: 6195348522908650294}
   threshold:
     coefficient: 0
     exponent: 0
   description: 
   multiplier: 1.14
-  level: 0
+  monsterLevel: 0
   initialDamage:
     coefficient: 0
     exponent: 0
@@ -1561,6 +1561,7 @@ MonoBehaviour:
   damageText: {fileID: 1185192142198306782}
   levelText: {fileID: 233905160693743146}
   buyButton: {fileID: 1234512484463555823}
+  imageSprite: {fileID: 0}
   stats: {fileID: 5396829387039207383}
   damageValue:
     coefficient: 0
@@ -1580,6 +1581,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a3efd865b322fd4caab371a1ab9d41e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  appliedUpgrades: []
 --- !u!1 &7821752543923228689
 GameObject:
   m_ObjectHideFlags: 0

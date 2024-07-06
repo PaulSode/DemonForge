@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using System.Collections.Generic;
+using System.IO;
 using Debug = UnityEngine.Debug;
 
 [System.Serializable]
@@ -31,6 +32,8 @@ public class MinionLoader : MonoBehaviour
     [SerializeField] private GameObject minionPrefab;
 
     public List<MinionScript> minionScripts;
+    
+    public string spritePath = "Sprites/Minions/";
 
     public event Action onMinionLoadComplete;
 
@@ -84,7 +87,13 @@ public class MinionLoader : MonoBehaviour
         minionObject.GetComponent<MinionScript>().threshold = new BFN(minion.priceCoef, minion.priceExp);
         minionObject.GetComponent<MinionScript>().initialDamage = new BFN(minion.damageCoef, minion.damageExp);
         minionObject.GetComponent<MinionScript>().description = minion.description;
-        //image = Resources.Load<Sprite>(minion.image);
+        
+        Sprite sprite = Resources.Load<Sprite>(Path.Combine(spritePath, minion.image));
+        if (sprite != null)
+        {
+            minionObject.GetComponent<MinionScript>().imageSprite = sprite;
+            Debug.Log("a");
+        }
         
         minionScripts.Add(minionObject.GetComponent<MinionScript>());
     }

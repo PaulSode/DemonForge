@@ -12,7 +12,7 @@ public class MinionScript : MonoBehaviour, IDataPersistence
     [Header("Values")]
     public int _monsterIndex;
     public string minionName = "Unknown";
-    public Sprite image;
+    public Image image;
     public BFN threshold;
     public string description;
     
@@ -20,11 +20,13 @@ public class MinionScript : MonoBehaviour, IDataPersistence
     [FormerlySerializedAs("level")] public int monsterLevel = 0;
     public BFN initialDamage;
 
-    [Header("TMP")] [SerializeField] private TMP_Text nameText;
+    [Header("TMP")] 
+    [SerializeField] private TMP_Text nameText;
     [SerializeField] private TMP_Text priceText;
     [SerializeField] private TMP_Text damageText;
     [SerializeField] private TMP_Text levelText;
     [SerializeField] private Button buyButton;
+    public Sprite imageSprite;
 
     [Header("Stats")]
     public Stats stats;
@@ -49,6 +51,12 @@ public class MinionScript : MonoBehaviour, IDataPersistence
     private void Start()
     {
         nameText.text = minionName;
+        
+        if (imageSprite != null)
+        {
+            Debug.Log("b");
+            image.sprite = imageSprite;    
+        }
         
         //If monster level is 0 then we initialize it, else the LoadData function will take care of it
         if (monsterLevel == 0)

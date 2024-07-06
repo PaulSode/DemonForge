@@ -1078,7 +1078,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &584031855
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3271,6 +3271,7 @@ MonoBehaviour:
   container: {fileID: 433270674}
   minionPrefab: {fileID: 7330701634861548930, guid: b5fac79c3968edf4b9fe253471b84be6, type: 3}
   minionScripts: []
+  spritePath: Sprites/Minions/
 --- !u!114 &1202000578
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4558,7 +4559,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 454517642}
   m_HandleRect: {fileID: 454517641}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:

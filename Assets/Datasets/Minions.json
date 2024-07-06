@@ -6,7 +6,7 @@
       "priceExp": 0,
       "damageCoef": 1,
       "damageExp": 0,
-      "image": "goblin.png",
+      "image": "Goblin",
       "description": "Almost useless, but can at least clean the floor and mine some gold."
     },
     {
@@ -15,7 +15,7 @@
       "priceExp": 0,
       "damageCoef": 5,
       "damageExp": 0,
-      "image": "skeleton.png",
+      "image": "Skeleton",
       "description": "Basic undead creatures. Slightly stronger than goblins, but still not enough to win a war."
     },
     {
@@ -24,7 +24,7 @@
       "priceExp": 0,
       "damageCoef": 20,
       "damageExp": 0,
-      "image": "zombie.png",
+      "image": "Zombie",
       "description": "Slow but tough undead. Can take more damage than a skeleton, but is very stupid."
     },
     {
@@ -33,7 +33,7 @@
       "priceExp": 0,
       "damageCoef": 75,
       "damageExp": 0,
-      "image": "zombie.png",
+      "image": "Orc",
       "description": "Stronger and more aggressive, is a mediocre melee fighter."
     },
     {
@@ -42,7 +42,7 @@
       "priceExp": 0,
       "damageCoef": 200,
       "damageExp": 0,
-      "image": "zombie.png",
+      "image": "Wolf",
       "description": "Fast and agile. Good for quick attacks and harass. Can also serve as mount for small units"
     },
     {
@@ -51,7 +51,7 @@
       "priceExp": 0,
       "damageCoef": 550,
       "damageExp": 0,
-      "image": "zombie.png",
+      "image": "Hobgoblin",
       "description": "More disciplined and stronger than regular goblins. Will at least scare the squires."
     },
     {
@@ -60,7 +60,7 @@
       "priceExp": 0,
       "damageCoef": 1750,
       "damageExp": 0,
-      "image": "zombie.png",
+      "image": "AAAAAAAA",
       "description": "Undead creatures that can paralyze with their touch. They have a cold aura that I don't dislike."
     },
     {
@@ -69,7 +69,7 @@
       "priceExp": 6,
       "damageCoef": 5000,
       "damageExp": 0,
-      "image": "zombie.png",
+      "image": "AAAAAAAA",
       "description": "Large and very strong ~. Can deal and take a lot of damage."
     },
     {
@@ -78,7 +78,7 @@
       "priceExp": 6,
       "damageCoef": 25000,
       "damageExp": 0,
-      "image": "zombie.png",
+      "image": "AAAAAAAA",
       "description": "Strong regenerative abilities. They are tough opponents"
     },
     {
@@ -87,7 +87,7 @@
       "priceExp": 6,
       "damageCoef": 90000,
       "damageExp": 0,
-      "image": "zombie.png",
+      "image": "AAAAAAAA",
       "description": "Ghostly beings that can drain life force. It's like me, but worse."
     },
     {
@@ -96,7 +96,7 @@
       "priceExp": 6,
       "damageCoef": 1.6,
       "damageExp": 6,
-      "image": "zombie.png",
+      "image": "AAAAAAAA",
       "description": "Skilled in both magic and combat. Agile and dangerous."
     },
     {
@@ -105,7 +105,7 @@
       "priceExp": 9,
       "damageCoef": 50,
       "damageExp": 6,
-      "image": "zombie.png",
+      "image": "AAAAAAAA",
       "description": "Powerful creatures with great strength and endurance. They have so much stamina ~"
     },
     {
@@ -114,7 +114,7 @@
       "priceExp": 9,
       "damageCoef": 150,
       "damageExp": 6,
-      "image": "zombie.png",
+      "image": "AAAAAAAA",
       "description": "Undead with high intelligence and various abilities, including life drain and transformation."
     },
     {
@@ -123,7 +123,7 @@
       "priceExp": 9,
       "damageCoef": 500,
       "damageExp": 6,
-      "image": "zombie.png",
+      "image": "AAAAAAAA",
       "description": "Shape-shifters with enhanced strength, speed, and senses. They're like wolves.. But better ~"
     },
     {
@@ -132,7 +132,7 @@
       "priceExp": 9,
       "damageCoef": 1.2,
       "damageExp": 9,
-      "image": "zombie.png",
+      "image": "AAAAAAAA",
       "description": "Powerful undead sorcerers. Command over dark magic and hordes of small minions."
     },
     {
@@ -141,7 +141,7 @@
       "priceExp": 9,
       "damageCoef": 4.8,
       "damageExp": 9,
-      "image": "zombie.png",
+      "image": "AAAAAAAA",
       "description": "Beings of pure elemental energy. Very powerful and difficult to control. The only thing they hate more than us is the humans."
     },
     {
@@ -150,7 +150,7 @@
       "priceExp": 9,
       "damageCoef": 10,
       "damageExp": 9,
-      "image": "zombie.png",
+      "image": "AAAAAAAA",
       "description": "Smaller dragon-like creatures. Can fly and breathe fire or poison."
     },
     {
@@ -159,7 +159,7 @@
       "priceExp": 12,
       "damageCoef": 40,
       "damageExp": 9,
-      "image": "zombie.png",
+      "image": "AAAAAAAA",
       "description": "The size of a house, they are poisonous and can trap enemies with webs."
     },
     {
@@ -168,7 +168,7 @@
       "priceExp": 12,
       "damageCoef": 100,
       "damageExp": 9,
-      "image": "zombie.png",
+      "image": "AAAAAAAA",
       "description": "Multi-headed beasts with various abilities. They can have the best of each minion."
     },
     {
@@ -177,7 +177,7 @@
       "priceExp": 12,
       "damageCoef": 400,
       "damageExp": 9,
-      "image": "zombie.png",
+      "image": "AAAAAAAA",
       "description": "Stone-like creatures that can turn to stone and are tough to defeat. Did I mention that they are the size of a Giant Spider ?"
     },
     {
@@ -186,7 +186,7 @@
       "priceExp": 12,
       "damageCoef": 4.5,
       "damageExp": 12,
-      "image": "zombie.png",
+      "image": "AAAAAAAA",
       "description": "Fiery dogs from the underworld. Fast, deadly, and extremely hot. Strangely likes hugs."
     },
     {
@@ -195,7 +195,7 @@
       "priceExp": 12,
       "damageCoef": 9.9,
       "damageExp": 12,
-      "image": "zombie.png",
+      "image": "AAAAAAAA",
       "description": "Serpentine creatures with a petrifying gaze. Strangely scared of hugs."
     },
     {
@@ -204,7 +204,7 @@
       "priceExp": 15,
       "damageCoef": 3,
       "damageExp": 13,
-      "image": "zombie.png",
+      "image": "AAAAAAAA",
       "description": "Beasts with the body of a lion, a human face, and a scorpion tail. For some reason they really scare humans."
     },
     {
@@ -213,7 +213,7 @@
       "priceExp": 15,
       "damageCoef": 90,
       "damageExp": 12,
-      "image": "zombie.png",
+      "image": "AAAAAAAA",
       "description": "Multi-headed serpents. When one head is cut off, two more grow back. I once saw one with a thousand heads."
     },
     {
@@ -222,7 +222,7 @@
       "priceExp": 15,
       "damageCoef": 250,
       "damageExp": 12,
-      "image": "zombie.png",
+      "image": "AAAAAAAA",
       "description": "Multi-headed serpents. When one head is cut off, two more grow back. I once saw one with a thousand heads."
     },
     {
@@ -231,7 +231,7 @@
       "priceExp": 15,
       "damageCoef": 1,
       "damageExp": 15,
-      "image": "zombie.png",
+      "image": "AAAAAAAA",
       "description": "Massive creatures with incredible strength and durability. It's always though to fight against mountains."
     },
     {
@@ -240,7 +240,7 @@
       "priceExp": 15,
       "damageCoef": 5,
       "damageExp": 15,
-      "image": "zombie.png",
+      "image": "AAAAAAAA",
       "description": "High-ranking infernal beings with immense power and various magical abilities. There can fight against mountains."
     },
     {
@@ -249,7 +249,7 @@
       "priceExp": 18,
       "damageCoef": 10,
       "damageExp": 15,
-      "image": "zombie.png",
+      "image": "AAAAAAAA",
       "description": "Among the most powerful infernal beings. Command vast dark powers and legions of lesser demons. Second only to you."
     }
   ]
