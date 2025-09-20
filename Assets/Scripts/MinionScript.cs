@@ -54,7 +54,6 @@ public class MinionScript : MonoBehaviour, IDataPersistence
         
         if (imageSprite != null)
         {
-            Debug.Log("b");
             image.sprite = imageSprite;    
         }
         
@@ -93,8 +92,6 @@ public class MinionScript : MonoBehaviour, IDataPersistence
         
                 if (RessourcesManager.Instance.gold >= _buyModePrice)
                 {
-                    RessourcesManager.Instance.AddRemGold(_buyModePrice, false);
-                    UpdateClickable();
 
                     switch (_buyMode)
                     {
@@ -111,6 +108,8 @@ public class MinionScript : MonoBehaviour, IDataPersistence
                             monsterLevel += _maxBuyCount;
                             break;
                     }
+                    RessourcesManager.Instance.AddRemGold(_buyModePrice, false);
+                    UpdateClickable();
             
                     
                     
@@ -142,7 +141,6 @@ public class MinionScript : MonoBehaviour, IDataPersistence
     private void OnBuyModeUpdate(BuyMode mode)
     {
         _buyMode = mode;
-        CalculatePrice();
         UpdateClickable();
         UpdateFrontStats();
     }
